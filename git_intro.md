@@ -131,7 +131,6 @@ git add file1 file2          # see stashed files
 git diff --cached            # see what you are about to commit
 git commit -m "MESSAGE"      # commit changes
 
-
 [... make some changes ...]
 
 git status                   # monitor your work
@@ -146,6 +145,6 @@ Once you `push` local changes, you can use the BitBucket web interface to
 review your commits. Please make sure that you have what you intend to submit
 on BitBucket.
 
-### Commit Often, Commit More
-We can not emphasize how important it is to commit frequently. Try to do
+## Commit _Often_, Commit _More_
+We can not emphasize more how important it is to commit frequently. Try to do
 homework incrementally, and commit small changes as often as possible.
