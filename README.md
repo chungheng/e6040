@@ -8,4 +8,4 @@ This repository contains the course materials of ECBM E6040,
 
 ## Homework Meterials
 * [Git Instruction](git_intro.md)
-* [EC2 Notebook](http://goo.gl/xfX4D1)
+* [EC2 Introduction](ec2.md)
