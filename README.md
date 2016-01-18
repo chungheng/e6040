@@ -1,6 +1,6 @@
 # ECBM E6040 Neural Networks and Deep Learning
 This repository contains the course materials of ECBM E6040,
-"Neural NetworkS and Deep Learning," during Spring 2016 at
+"Neural Networks and Deep Learning," during Spring 2016 at
 [Columbia University](http://www.columbia.edu/).
 
 ### Instructor
