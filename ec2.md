@@ -25,17 +25,17 @@ instance using the AMI.
 First, change your region to US East and search in the public images for `E6040_AMI`. Click on
 the one with AMI ID: ami-e3e3c689. Then click Launch button on the top.
 
-<img src='notebooks/files/ec2-ami-1.png' />
+![ec2-ami-1]('notebooks/files/ec2-ami-1.png')
 
 You will be prompted to Step 2 of instance setup. 
 Here, choose either `g2.2xlarge` for an instance with 1 GPU or `g2.8xlarge` for one with 4 GPUs.
 
-<img src='notebooks/files/ec2-launch-step2.png' />
+![ec2-ami-2]('notebooks/files/ec2-launch-step2.png')
 
 In step 3: leave the default setting for instance details, or customize it according to your needs.
 
 In step 4, add storage with at least 8 GiB size. If you wish to keep the root storage, uncheck "Delete on Termination" box. Add additional storage as you need.
-<img src='notebooks/files/ec2-launch-step4.png' />
+![ec2-ami-4]('notebooks/files/ec2-launch-step4.png')
 
 In step 5, you can leave it as is or create a new tag for you instance.
 
@@ -71,8 +71,8 @@ or do the following:
 ```bash
 source activate theano
 ipython
+[ ... lauching ipython interpreter ... ]
 ```
-
 
 ```ipython
 In [1]: from notebook.auth import passwd
@@ -81,8 +81,8 @@ In [2]: passwd()
 
 Copy the output starting with `sha1:`.
 
-Edit the file ~/.jupyter/jupyter_notebook_config.py and paste the above output in between the quotes on the line (uncomment the line by removing # at the beginning of the line):
-
+Edit the file `~/.jupyter/jupyter_notebook_config.py` and paste the above output in between
+the quotes on the line (uncomment the line by removing # at the beginning of the line):
 
 ```python
 c.NotebookApp.password = ''
@@ -102,8 +102,8 @@ jupyter notebook
 
 In your EC2 console, add a TCP rule to the security group that your instance is using.
 
-<img src='notebooks/files/add_port.png' />
+![add-port]('notebooks/files/add_port.png')
 
 You can now access the notebook server from your browser by enter the DNS address of your
-instance, e.g.: https://ec2-DNS:9999. The default port is set to `9999`, this can be changed
+instance, e.g.: `https://ec2-DNS:9999`. The default port is set to `9999`, this can be changed
 in the file `~/.jupyter/jupyter_notebook_config.py`.
