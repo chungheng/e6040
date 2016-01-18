@@ -8,7 +8,7 @@ to start by reading the official [Git documentation](http://git-scm.com/document
 
 While there are many Git-based systems, such as Github or GitLab, we will
 be using [BitBucket](https://bitbucket.org/) in this course. BitBucket allows
-user to create unlimited numbers of _private_ repositories. If you haven't
+user to create unlimited numbers of _private_ repositories. If you have not
 had a BitBucket account yet, please create *one*. All homework submission
 will be done on BitBucket **_only_**.
 
@@ -49,7 +49,7 @@ Note that `name` and `email` should be the same as on BitBucket.
 ### Git Work Flow
 
 Git provides over a hundred of operations. In this course, you
-will be mainly using `clone`, `diff`, `add`, `status, ``commit`, and `push`.
+will be mainly using `clone`, `diff`, `add`, `status`, `commit`, and `push`.
 
 #### Clone
 For each homework, you will start by making a local copy of the
@@ -145,3 +145,7 @@ git push                     # upload your local changes onto BitBucket
 Once you `push` local changes, you can use the BitBucket web interface to
 review your commits. Please make sure that you have what you intend to submit
 on BitBucket.
+
+### Commit Often, Commit More
+We can not emphasize how important it is to commit frequently. Try to do
+homework incrementally, and commit small changes as often as possible.
