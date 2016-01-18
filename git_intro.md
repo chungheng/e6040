@@ -90,7 +90,7 @@ You can see what you are about to commit by using `git diff` with an extra flag,
 git diff --cached
 ```
 
-Lastly, you commit all stashed changes,
+After making some changes, commit all stashed files,
 
 ```bash
 git commit -m "MESSAGE"
@@ -145,4 +145,3 @@ git push                     # upload your local changes onto BitBucket
 Once you `push` local changes, you can use the BitBucket web interface to
 review your commits. Please make sure that you have what you intend to submit
 on BitBucket.
-
