@@ -8,4 +8,4 @@ This repository contains the course materials of ECBM E6040,
 
 ## Homework
 * [Git Instruction]
-* [EC2 Notebook]
+* [EC2 Notebook](http://goo.gl/xfX4D1)
