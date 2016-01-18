@@ -1,4 +1,4 @@
-# ECBM E6040 Neural NetworkS and Deep Learning
+# ECBM E6040 Neural Networks and Deep Learning
 This repository contains the course materials of ECBM E6040,
 "Neural NetworkS and Deep Learning," during Spring 2016 at
 [Columbia University](http://www.columbia.edu/).
@@ -7,5 +7,5 @@ This repository contains the course materials of ECBM E6040,
 * Professor [Aurel A. Lazar](http://www.ee.columbia.edu/~aurel/)
 
 ## Homework
-* [Git Instruction]
+* [Git Instruction](git_intro.md)
 * [EC2 Notebook](http://goo.gl/xfX4D1)
