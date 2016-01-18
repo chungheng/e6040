@@ -12,8 +12,8 @@ user to create unlimited numbers of _private_ repositories. If you have not
 had a BitBucket account yet, please create *one*. All homework submission
 will be done on BitBucket **_only_**.
 
-**Please email your BitBucket ID along with your UNI to the email address
-ecbme6040.columbia AT gmail dot com**.
+**Please add your BitBucket ID in the Google document ”Bitbucket Usernames”
+under Collaborations tab in Courseworks**
 
 For each homework assignments, the TA will create a private Git repository
 for you, and then grant its access to you. Please DO NOT create any
