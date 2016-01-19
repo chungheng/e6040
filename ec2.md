@@ -25,7 +25,7 @@ instance using the AMI.
 First, change your region to US East and search in the public images for `E6040_AMI`. Click on
 the one with AMI ID: ami-e3e3c689. Then click Launch button on the top.
 
-![ec2-ami-1]('notebooks/files/ec2-ami-1.png')
+![ec2-ami-1]('../../downloads/raw/notebooks/files/ec2-ami-1.png')
 
 You will be prompted to Step 2 of instance setup. 
 Here, choose either `g2.2xlarge` for an instance with 1 GPU or `g2.8xlarge` for one with 4 GPUs.
