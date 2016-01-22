@@ -6,6 +6,6 @@ This repository contains the course materials of ECBM E6040,
 ### Instructor
 * Professor [Aurel A. Lazar](http://www.ee.columbia.edu/~aurel/)
 
-## Homework Meterials
+## Homework Materials
 * [Git Instruction](git_intro.md)
 * [EC2 Introduction](http://goo.gl/xfX4D1)
