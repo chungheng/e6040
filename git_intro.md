@@ -56,11 +56,11 @@ For each homework, you will start by making a local copy of the
 homework repository on EC2. Use the following command,
 
 ```bash
-git clone https://YOUR_ID@bitbucket.org/E6040TA/hw_#_YOUR_UNI.git
+git clone https://YOUR_ID@bitbucket.org/E6040TA/e6040_hw#_YOURUNI.git
 ```
 or
 ```bash
-git clone git@bitbucket.org/E6040TA/hw_#_YOUR_UNI.git
+git clone git@bitbucket.org/E6040TA/e6040_hw#_YOURUNI.git
 ```
 
 If you use the `https` link, you will be prompted to enter your
