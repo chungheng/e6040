@@ -77,7 +77,7 @@ you have changed,
 git diff [file]
 ```
 
-If you think a file (or files) is ready to commit, use the `git add` to stash
+If you think a file (or files) is ready to commit, use the `git add` to stage
 it,
 
 ```bash
@@ -90,7 +90,7 @@ You can see what you are about to commit by using `git diff` with an extra flag,
 git diff --cached
 ```
 
-After making some changes, commit all stashed files,
+After making some changes, commit all staged files,
 
 ```bash
 git commit -m "MESSAGE"
@@ -102,8 +102,8 @@ summary will help you remember what you have done before. Each commit has
 a time stamp. You can commit at any time, but the TA will only grade the
 commits before the deadline.
 
-You can use `git status` to monitor your work. It prints a summary of revision,
-files that have been modified, files that have been stashed, etc. In particular,
+You can use `git status` to monitor your work. It prints out a summary of revision,
+files that have been modified, files that have been staged, etc. In particular,
 use it before commit to ensure you have everything correct.
 
 
@@ -127,7 +127,7 @@ git clone LINK_TO_REPOSITORY # download the homework repository
 [... make some changes ...]
 
 git diff                     # see what you have modified
-git add file1 file2          # see stashed files
+git add file1 file2          # see staged files
 git diff --cached            # see what you are about to commit
 git commit -m "MESSAGE"      # commit changes
 
