@@ -1,3 +1,14 @@
+"""
+Repository Manager for creating and managing Git repository on Bitbucket
+
+This package requires:
+
+1. git-spindle extension (https://github.com/seveas/git-spindle)
+2. SSH authentication method for communicating with BitBucket. Make sure that
+   "ssh-agent" is running, and a RSA key pair is added locally and remotely.
+
+"""
+
 import argparse
 import pandas as pd
 import os, shutil
@@ -7,8 +18,26 @@ import subprocess as sp
 class RepoManager(object):
     def __init__(self, filename, ta_account, ta_email="ta@columbia.edu",
         ta_name="TA", directory=None):
-
         """
+        Repository Manager
+
+        Input
+        =====
+        filename: string
+
+        ta_account: string
+            BitBucket account of the TA. This account is the owner of all
+            students' repositories.
+
+        ta_email: string
+            Email address of the TA. Git requires an email address.
+
+        ta_name: string
+            Name of the TA. Git requires a name.
+
+        directory: string
+            Path to the directory where the student repositories reside. If not
+            given, use the current working directory.
         """
         self.ta_account = ta_account
         self.ta_email = ta_email
