@@ -11,7 +11,7 @@ This repository contains the course materials of ECBM E6040,
 * [EC2 Introduction](http://goo.gl/ALIrHi): A tutorial for setting up Amazon EC2 image with preloaded Theano package.
 
 ## Utility
-* [repository_generator](): A script for creating and managing repositories on BitBucket.
+* [repository_generator](utils/repository_manager.py): A script for creating and managing repositories on BitBucket.
 
 ## Contributors
 This repository is maintained by following people:
