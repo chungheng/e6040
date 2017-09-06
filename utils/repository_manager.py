@@ -187,7 +187,7 @@ class RepoManager(object):
         """
         for remotefile, localfile in zip(remoteFileList, fileList):
             assert(os.path.isfile(remotefile))
-            assert(!os.path.isfile(localfile))
+            assert(not os.path.isfile(localfile))
             sp.call(['cp', remotefile, localfile])
             sp.call(['git','add', localfile])
 
